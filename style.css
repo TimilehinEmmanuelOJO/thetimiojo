@@ -7,8 +7,9 @@
 }
 body{
     line-height: 1.6;
-    background-color: #BFB8B8;
+    background-color: #e6dede;
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
 }
 ul{
     list-style-type: none;
@@ -54,16 +55,18 @@ button{cursor: pointer;}
     display: flex;
     justify-content: space-around;
     height: 500px;
-    width: 1030px;
+    max-width: 1030px;
+    box-shadow: -4px 5px 4px 0px #00000040;
     margin: 0 auto;
     border-radius: 2px;
     background-color: #F0F0F5;
 }
 .laptop{
+    display: grid;
     margin-top: 69px;
     width: 430px;
 }
-.text{margin-top: 108px;margin-top: 108px;}
+.text{display: grid; margin-top: 108px;margin-top: 108px;}
 .name{
     font-size: 49px;
     font-weight: 700;
@@ -71,12 +74,17 @@ button{cursor: pointer;}
     line-height: 57px;   
 }
 .web{
+    position: relative;
+    bottom: 40px;
     color: #696969;
-    margin-top: 20px;
     margin-bottom:40px;
     font-size: 29px;
     font-weight: 600;
     line-height: 43px;
+}
+.buts{
+    position: relative;
+    bottom: 80px;
 }
 #but1{
     height: 50px;
@@ -100,4 +108,51 @@ button{cursor: pointer;}
     font-weight: 400;
     line-height: 28px;
     box-shadow: -4px 5px 4px 0px #00000040;
+}
+.project{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1030px;
+    margin: 0% auto;
+}
+.forty h1{
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 57px;
+}
+.forty p{
+    color: #b1a9a9;
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-section{
+    background-color: #0F1221;
+    display: flex;
+    height: 493px;
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 93px auto;
+}
+.bit{
+    
+}
+.bit h1{
+    color: #ffff;
+    font-size: 49px;
+    line-height: 73px;
+    font-weight: 700;
+}
+.bit p{
+    color: #ffff;
+    font-size: 25px;
+    line-height: 43px;
+    font-weight: 400;
+}
+.phone img{
+    position: relative;
+    bottom: 90px;
+    width: 485.5px;
+    transform: rotate(10deg);
 }
