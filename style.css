@@ -156,3 +156,70 @@ button{cursor: pointer;}
     width: 485.5px;
     transform: rotate(10deg);
 }
+.skills{
+    display: grid;
+    margin-bottom: 100px;
+}
+.code{
+    width: 299px;
+    color: #5E3AEE;
+    margin: 79px;
+    font-size: 49px;
+    font-weight: 800;
+    line-height: 73px;
+}
+.grid{
+    display: grid;
+}
+.g1, .g2, .g3{
+    display: flex;
+    justify-content: space-around;
+}
+.g1, .g2, .g3 h5{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgb(80, 74, 74);
+    margin: 30px 0;
+}
+.contacts{
+    background: #5E3AEE;
+    height: 576px;
+}
+.contacts h1{
+    position: relative;
+    top: 40px;
+    margin: 50px 0;
+    font-size: 49px;
+    font-weight: 800;
+    line-height: 73px;
+    color: #ffff;
+    text-align: center;
+}
+.contacts p{
+    margin: 50px 0;
+    font-size: 21px;
+    font-weight: 5s00;
+    line-height: 31px;
+    color: #ffff;
+    text-align: center;
+}
+.social{display: flex;}
+.email{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 36px;
+    color: #ffff;
+}
+.email img{
+    width: 200px;
+    border-radius: 10px;
+}
+.med{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 36px;
+    color: #ffff;
+}
