@@ -17,6 +17,7 @@ ul{
 a{
     text-decoration: none;
     cursor: pointer;
+    color: #ffff;
 }
 h1, h2{
     line-height: 1.2;
@@ -204,16 +205,17 @@ button{cursor: pointer;}
     color: #ffff;
     text-align: center;
 }
-.social{display: flex;}
+.social{display: flex; justify-content: space-evenly;}
 .email{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     font-size: 36px;
     color: #ffff;
 }
-.email img{
-    width: 200px;
+.med img{
+    width: 300px;
     border-radius: 10px;
 }
 .med{
@@ -222,4 +224,24 @@ button{cursor: pointer;}
     text-align: center;
     font-size: 36px;
     color: #ffff;
+}
+
+.em{
+    display: flex;
+}
+.em .ema{
+    margin-right: 150px;
+}
+.soc{
+    display: flex;
+    justify-content: center;
+}
+.soc .linkedin{
+    margin: 0 40px;
+}
+.soc .ig{
+    margin: 0 40px;
+}
+.soc .twitter{
+    margin: 0 40px 
 }
