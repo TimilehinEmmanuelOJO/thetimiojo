@@ -65,17 +65,22 @@ footer{
 }
 .log{
     display: flex;
-    gap: 30px;
+    gap: 100px;
+    margin: 0px 200px;
 }
 .log h1{
     font-size: 20px;
     padding: 30px 0px;
-    
+    justify-content: center;
+}
+.log i{
+    font-size: 18px;
+    margin: 0 10px;
 }
 .foot{
     display: flex;
     justify-content: center;
-    opacity: 0.6;
+    gap: 100px;
     font-weight: 200px;
     font-size: 10px;
 }
