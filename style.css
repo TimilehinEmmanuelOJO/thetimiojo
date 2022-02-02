@@ -52,6 +52,7 @@ button{cursor: pointer;}
     display: flex;
     gap: 40px;
 }
+.left-nav a{color: black;}
 .top-section{
     display: flex;
     justify-content: space-around;
@@ -65,7 +66,9 @@ button{cursor: pointer;}
 .laptop{
     display: grid;
     margin-top: 69px;
-    width: 430px;
+    width: 400px;
+    height: auto;
+    
 }
 .text{display: grid; margin-top: 108px;margin-top: 108px;}
 .name{
@@ -127,7 +130,7 @@ button{cursor: pointer;}
     font-weight: 500;
 }
 .about-section{
-    background-color: #0F1221;
+    background-color: #854040;
     display: flex;
     height: 493px;
 }
@@ -153,18 +156,22 @@ button{cursor: pointer;}
 }
 .phone img{
     position: relative;
-    bottom: 90px;
+    bottom: 29px;
+    left: 30px;
     width: 485.5px;
-    transform: rotate(10deg);
 }
 .skills{
     display: grid;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    background-color: white;
 }
-.code{
+.skills i{
+    font-size: 40px;
+}
+.skills h2{
     width: 299px;
     color: #5E3AEE;
-    margin: 79px;
+    margin: 30px 79px;
     font-size: 49px;
     font-weight: 800;
     line-height: 73px;
