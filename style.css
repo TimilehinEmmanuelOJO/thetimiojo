@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-
 *{
     box-sizing: border-box;
     padding: 0%;
@@ -7,7 +6,7 @@
 }
 body{
     line-height: 1.6;
-    background-color: #e6dede;
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
     max-width: 100%;
 }
@@ -42,12 +41,34 @@ button{cursor: pointer;}
 }
 .logo{
     width: 150px;
-    color: hsl(252, 84%, 58%);
+    color: hsl(0, 0%, 0%);
     font-size: 27px;
     font-weight: 700;
     line-height: 40px;
 }
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+ 
+}
 
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .left-nav{
     display: flex;
     gap: 40px;
@@ -101,6 +122,12 @@ button{cursor: pointer;}
     border-radius: 4px;
     box-shadow: -4px 5px 4px 0px #00000040;
 }
+#but1:hover{
+   height: 80px;
+    transition: .7s ease-in-out;
+    font-size: 24px;
+    
+}
 #but2{
     height: 50px;
     width: 185px;
@@ -113,6 +140,11 @@ button{cursor: pointer;}
     line-height: 28px;
     box-shadow: -4px 5px 4px 0px #00000040;
 }
+#but2:hover{
+    height: 80px;
+     transition: .7s ease-in-out;
+     font-size: 24px;   
+ }
 .project{
     display: flex;
     justify-content: space-between;
@@ -124,13 +156,16 @@ button{cursor: pointer;}
     font-weight: 700;
     line-height: 57px;
 }
+.forty h1:hover{
+    
+}
 .forty p{
     color: #b1a9a9;
     font-size: 18px;
     font-weight: 500;
 }
 .about-section{
-    background-color: #854040;
+    
     display: flex;
     height: 493px;
 }
@@ -143,13 +178,13 @@ button{cursor: pointer;}
     
 }
 .bit h1{
-    color: #ffff;
+    color: rgb(0, 0, 0);
     font-size: 49px;
     line-height: 73px;
     font-weight: 700;
 }
 .bit p{
-    color: #ffff;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     line-height: 43px;
     font-weight: 400;
@@ -165,29 +200,3 @@ button{cursor: pointer;}
     padding-bottom: 100px;
     background-color: white;
 }
-.skills i{
-    font-size: 40px;
-}
-.skills h2{
-    width: 299px;
-    color: #5E3AEE;
-    margin: 30px 79px;
-    font-size: 49px;
-    font-weight: 800;
-    line-height: 73px;
-}
-.grid{
-    display: grid;
-}
-.g1, .g2, .g3{
-    display: flex;
-    justify-content: space-around;
-}
-.g1, .g2, .g3 h5{
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 36px;
-    color: rgb(80, 74, 74);
-    margin: 30px 0;
-}
-

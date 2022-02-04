@@ -7,7 +7,7 @@
 }
 .card-group{
     display: grid;
-    background-color: rgb(177, 101, 101);
+    
 }
 
 .pic{
@@ -20,7 +20,7 @@
     position: relative;
 }
 .back{
-    background-color: white;
+    background-color: rgb(70, 66, 66);
     width: 380px;
     height: 250px;
     border-radius: 10px;
@@ -34,17 +34,18 @@
     padding-top: 15px;
     font-size: 16px;
     font-weight: 400;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .pic i{
     margin-left: 25px;
 }
 .pic .icon{
     margin-top: 50px;
+    color: white;
 }
 
 .contact-section{
-    background-color: #5E3AEE;
+   
 }
 .flex-con{
     display: flex;
@@ -53,11 +54,11 @@
     gap: 100px;
 }
 #mess h1{
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 #mess p{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 21px;
     font-weight: 400px;
     margin-bottom: 70px;
@@ -71,7 +72,7 @@ form{
     width: 450px;
 }
 label{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 20px;
 }
 input{
@@ -80,7 +81,7 @@ input{
     border-radius: 5px;
     outline: none;
     font-size: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(31, 29, 29);
     font-weight: 700;
     padding: 10px;
 }
@@ -89,11 +90,11 @@ textarea{
     border-radius: 5px;
     outline: none;
     font-size: 20px;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid rgb(31, 29, 29);
     font-weight: 700;
     padding: 10px;
 }
-button{
+.but-sec{
     cursor: pointer;
     height: 50px;
     border-radius: 5px;
@@ -101,6 +102,12 @@ button{
     font-size: 20px;
     border: 3px solid rgb(255, 255, 255);
     font-weight: 700;
+    transition: 1s ease-in-out;
+}
+.but-sec:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
 }
 footer{
     height: 300px;

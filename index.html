@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="caro.css">
     <link rel="icon" type="image/png" sizes="60x60" href="Images\logo (2).png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
     <title>The Timi Ojo</title>
 </head>
 <body>
@@ -17,10 +20,10 @@
                 timiojo/>
             </div>
             <div class="left-nav">
-                <a href="">Home</a>
-                <a href="projects.html">Projects</a>
-                <a href="#about-section">About</a>
-                <a href="#contact-section">Quotation</a>
+                <a href="" class="hover-underline-animation">Home</a>
+                <a href="projects.html" class="hover-underline-animation">Projects</a>
+                <a href="#about-section" class="hover-underline-animation">About</a>
+                <a href="#contact-section" class="hover-underline-animation">Quotation</a>
             </div>
         </div>
         <div class="top-section">
@@ -67,7 +70,7 @@
                     <h1>A Bit About Me...</h1>
                     <p>Hello, My name is Krutik Raut AKA reboot13. <br>
                         I am a CSE  Undergraduate at Parul University. <br>
-                        I’m currently learning UI/UX development. Checkout my <br>
+                        I’m currently learning UI/UX development.<br> Checkout my 
                          projects on github. <br> <strong style="color: #5E3AEE;">@reboot13-git</strong>
                         </p>
                 </div>
@@ -77,131 +80,132 @@
             </div>
         </div>
         <div class="skills">
-            <div class="code">
-                <h2>Skills</h2>
-            </div>
-            <div class="grid">
-                <div class="g1">
-                    <h5><i class="fab fa-html5"></i>Html</h5>
-                    <h5><i class="fab fa-js-square"></i>Javascript</h5>
-                    <h5><i class="fab fa-bootstrap"></i>Bootstrap</h5>
+            <div style="display: flex; margin: 140px auto;"><div style="height: 2px; width: 300px; background-color: rgb(255, 0, 0);"></div><div><h1 style="font-size: 60px;"> My SkillSets</h1></div><div style="height: 2px;width: 300px; background-color: rgb(255, 0, 0);"></div></div>
+            <div>
+                <div style="display: flex; justify-content: space-around; font-size: 150px; color: cadetblue;">
+                    <i class="fab fa-html5"></i>
+                    <i class="fab fa-js-square"></i>
+                    <i class="fab fa-bootstrap"></i>
+                    <i class="fab fa-css3-alt"></i>
                 </div>
-                <div class="g2">
-                    <h5><i class="fab fa-css3-alt"></i>Css</h5>
-                    <h5><i class="fab fa-git"></i>Version Control: Git</h5>
-                    <h5><i class="fab fa-react"></i>React Js</h5>
-                </div>
-                <div class="g3">
-                    <h5><i class="fas fa-mobile-alt"></i>Responsive Design</h5>
-                    <h5><i class="fas fa-user-circle"></i>Easy to Work With</h5>
-                    <h5><i class="fas fa-users"></i>Good Team Player</h5>
+                <div style="display: flex; justify-content: space-around;font-size: 130px; margin: 30px 0; color: cadetblue;" >
+                    <i class="fab fa-git"></i>
+                    <i class="fab fa-react"></i>
+                    <i class="fas fa-users"></i>
                 </div>
             </div>
         </div>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="card-group">
-                    <h1 class="tex">What people say</h1>
-                    <div style="display: flex; justify-content: space-around;">
-                        <div class="pic">
-                            <img src="Images\WhatsApp Image 2022-02-03 at 00.18.32.jpeg" alt="">
-                            <div class="back"><p>Great guy, he pays attention to details <br>
-                                and his work is always excellently done. <br>
-                                A plus for him is that he always keeps <br>
-                                 to time which from me has earned him <br> five stars </p>
-                                 <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
-                                            <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                                            <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
-                                        </div>
-                            </div>        
-                        </div>
-                        <div class="pic">
-                            <img src="Images\38bbe951-a634-49e6-a0a4-c1ec24d91ad3.jpg" alt="">
-                            <div class="back"><p>Great guy, he pays attention to details <br>
-                                and his work is always excellently done. <br>
-                                A plus for him is that he always keeps <br>
-                                 to time which from me has earned him <br> five stars </p>
-                                 <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
-                                            <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                                            <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
-                                        </div>
-                            </div>        
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card-group">
-                    <h1 class="tex">What people say</h1>
-                    <div style="display: flex; justify-content: space-around;">
-                        <div class="pic">
-                            <img src="Images\850c199e-80e4-48e8-8cb1-535899879da7.jpg" alt="">
-                            <div class="back"><p>Great guy, he pays attention to details <br>
-                                and his work is always excellently done. <br>
-                                A plus for him is that he always keeps <br>
-                                 to time which from me has earned him <br> five stars </p>
-                                 <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
-                                            <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                                            <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
-                                        </div>
-                            </div>        
-                        </div>
-                        <div class="pic">
-                            <img src="Images\DSC_0188d.jpg" alt="">
-                            <div class="back"><p>Great guy, he pays attention to details <br>
-                                and his work is always excellently done. <br>
-                                A plus for him is that he always keeps <br>
-                                 to time which from me has earned him <br> five stars </p>
-                                 <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
-                                            <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                                            <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
-                                        </div>
-                            </div>        
-                        </div>
-    
-                    </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="card-group">
-                    <h1 class="tex">What people say</h1>
-                    <div style="display: flex;justify-content: space-around;">
-                        <div class="pic">
-                            <img src="Images\DSC_0204.jpg" alt="">
-                            <div class="back"><p>Great guy, he pays attention to details <br>
-                                and his work is always excellently done. <br>
-                                A plus for him is that he always keeps <br>
-                                 to time which from me has earned him <br> five stars </p>
-                                 <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
-                                            <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                                            <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
-                                        </div>
-                            </div>        
-                        </div>
-                        <div class="pic">
-                            <img src="Images\DSC_0146.jpg" alt="">
-                            <div class="back"><p>Great guy, he pays attention to details <br>
-                                and his work is always excellently done. <br>
-                                A plus for him is that he always keeps <br>
-                                 to time which from me has earned him <br> five stars </p>
-                                 <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
-                                            <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
-                                            <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
-                                        </div>
-                            </div>        
-                        </div>
-    
-                    </div>
-                </div>
-              </div>
+        <div>
+            <div style="display: flex; margin: 0 200px;">
+                <div style="height: 2px; width: 200px; background-color: rgb(255, 0, 0);"></div>
+                <div><h1 style="font-size: 60px;"> What people Say</h1></div>
+                <div style=" height: 2px;width: 200px; background-color: rgb(255, 0, 0);"></div>
             </div>
-          </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card-group">
+                        <h1 class="tex">What people say</h1>
+                        <div style="display: flex; justify-content: space-around;">
+                            <div class="pic">
+                                <img src="Images\WhatsApp Image 2022-02-03 at 00.18.32.jpeg" alt="">
+                                <div class="back"><p>Great guy, he pays attention to details <br>
+                                    and his work is always excellently done. <br>
+                                    A plus for him is that he always keeps <br>
+                                     to time which from me has earned him <br> five stars </p>
+                                     <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
+                                                <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                                <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
+                                            </div>
+                                </div>        
+                            </div>
+                            <div class="pic">
+                                <img src="Images\38bbe951-a634-49e6-a0a4-c1ec24d91ad3.jpg" alt="">
+                                <div class="back"><p>Great guy, he pays attention to details <br>
+                                    and his work is always excellently done. <br>
+                                    A plus for him is that he always keeps <br>
+                                     to time which from me has earned him <br> five stars </p>
+                                     <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
+                                                <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                                <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
+                                            </div>
+                                </div>        
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card-group">
+                        <h1 class="tex">What people say</h1>
+                        <div style="display: flex; justify-content: space-around;">
+                            <div class="pic">
+                                <img src="Images\850c199e-80e4-48e8-8cb1-535899879da7.jpg" alt="">
+                                <div class="back"><p>Great guy, he pays attention to details <br>
+                                    and his work is always excellently done. <br>
+                                    A plus for him is that he always keeps <br>
+                                     to time which from me has earned him <br> five stars </p>
+                                     <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
+                                                <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                                <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
+                                            </div>
+                                </div>        
+                            </div>
+                            <div class="pic">
+                                <img src="Images\DSC_0188d.jpg" alt="">
+                                <div class="back"><p>Great guy, he pays attention to details <br>
+                                    and his work is always excellently done. <br>
+                                    A plus for him is that he always keeps <br>
+                                     to time which from me has earned him <br> five stars </p>
+                                     <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
+                                                <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                                <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
+                                            </div>
+                                </div>        
+                            </div>
+        
+                        </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card-group">
+                        <h1 class="tex">What people say</h1>
+                        <div style="display: flex;justify-content: space-around;">
+                            <div class="pic">
+                                <img src="Images\DSC_0204.jpg" alt="">
+                                <div class="back"><p>Great guy, he pays attention to details <br>
+                                    and his work is always excellently done. <br>
+                                    A plus for him is that he always keeps <br>
+                                     to time which from me has earned him <br> five stars </p>
+                                     <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
+                                                <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                                <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
+                                            </div>
+                                </div>        
+                            </div>
+                            <div class="pic">
+                                <img src="Images\DSC_0146.jpg" alt="">
+                                <div class="back"><p>Great guy, he pays attention to details <br>
+                                    and his work is always excellently done. <br>
+                                    A plus for him is that he always keeps <br>
+                                     to time which from me has earned him <br> five stars </p>
+                                     <div class="icon" style="display: flex; justify-content: space-between; font-size: 20px;">
+                                                <div><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                                                <i class="far fa-thumbs-up" style="position: relative; right: 40px; font-size: 20px;"></i>
+                                            </div>
+                                </div>        
+                            </div>
+        
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
         <div class="contact-section" id="contact-section">
             <div class="flex-con">
                 <div class="cont">
                     <div id="mess">
-                        <h1>Contact</h1>
+                        <h1>Get in touch</h1>
                         <p>Want a website for your brand and business? <br>
                              I develop your desire....</p>
                         <img src="Images\hshs 1.png" alt="">
@@ -215,7 +219,7 @@
                         <input type="text" name="" id="" required>
                         <label for="">Message</label>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <Button>Submit</Button>
+                        <Button class="but-sec">Submit</Button>
                     </form>
                 </div>
             </div>
@@ -242,7 +246,11 @@
 
 
     </div>
+    <script>
+        AOS.init();
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="index.js"></script>
+    
 </body>
 </html>
