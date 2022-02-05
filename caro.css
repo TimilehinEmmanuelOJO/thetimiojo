@@ -123,6 +123,7 @@ footer{
 .log i{
     font-size: 18px;
     margin: 0 10px;
+    color: white;
 }
 .foot{
     display: flex;
