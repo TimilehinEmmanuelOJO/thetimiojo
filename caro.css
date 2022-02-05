@@ -1,13 +1,12 @@
 .card-group h1{
     text-align: center;
-    margin: 40px;
+    margin: 0 40px;
     color: white;
     font-size: 60px;
     font-weight: 700px;
 }
 .card-group{
     display: grid;
-    
 }
 
 .pic{
@@ -15,7 +14,7 @@
     margin: 30px 0;
 }
 .pic img{
-    width: 250px;
+    width: 200px;
     border-radius: 300px;
     position: relative;
 }
@@ -45,7 +44,7 @@
 }
 
 .contact-section{
-   
+   margin-top:100px ;
 }
 .flex-con{
     display: flex;
@@ -53,15 +52,11 @@
     padding: 39px 100px;
     gap: 100px;
 }
-#mess h1{
-    color: rgb(0, 0, 0);
-    margin-bottom: 20px;
-}
 #mess p{
     color: rgb(0, 0, 0);
-    font-size: 21px;
+    font-size: 26px;
     font-weight: 400px;
-    margin-bottom: 70px;
+    margin-top: 100px;
 }
 #mess img{
     width:435px ;   
@@ -110,7 +105,7 @@ textarea{
     border-radius: 10px;
 }
 footer{
-    height: 300px;
+    height: 150px;
     background-color: rgb(0, 0, 0);
     opacity: ;
     color: rgb(255, 255, 255);
