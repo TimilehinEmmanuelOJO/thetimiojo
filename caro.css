@@ -1,3 +1,7 @@
+/*carousel section*/
+.what-flex{display: flex; margin: 0 200px;}
+.what-line{height: 2px; width: 200px; background-color: rgb(255, 0, 0);}
+.what-flex h1{font-size: 60px;}
 .card-group h1{
     text-align: center;
     margin: 0 40px;
@@ -35,13 +39,41 @@
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
-.pic i{
-    margin-left: 25px;
-}
 .pic .icon{
+    margin-left: 25px;
     margin-top: 50px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
+@media (max-width:412px){
+    .what-flex{display: flex; margin: 0 20px;}
+.what-line{height: 2px; width: 42px; background-color: rgb(255, 0, 0);}
+.what-flex h1{font-size: 18px;}
+.pic img{
+    width: 50px;
+    border-radius: 50%;
+}
+.back{
+    width: 180px;
+    height: auto;
+    margin-left: 80px;
+}
+.pic p{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.pic .icon{
+    margin-top: 20px;
+    font-size: 6px;
+    display: flex;justify-content: space-between;
+}
+}
+
+
+/*Contact Section*/
 
 .contact-section{
    margin-top:100px ;
@@ -104,6 +136,7 @@ textarea{
     color: white;
     border-radius: 10px;
 }
+/*footer section*/
 footer{
     height: 150px;
     background-color: rgb(0, 0, 0);
