@@ -16,6 +16,9 @@ body{
 @media(max-width: 600px){
     body{background-color: rgb(255, 255, 255);}
 }
+@media(max-width:360px){
+    body{background-color: #5E3AEE;}
+}
 ul{
     list-style-type: none;
 }
@@ -96,6 +99,7 @@ button{cursor: pointer;}
     background-color: #ffffff;
   }
   
+  
   @media(max-width: 600px){
     .logo{
         margin: 0 45px;
@@ -107,6 +111,17 @@ button{cursor: pointer;}
     }
     .align{display: flex; font-size: 24px; margin: 0 50px; gap: 10px;}
 }
+@media (max-width: 360px){
+    .logo{
+        margin-left: 10px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .align{display: flex; font-size: 24px; margin-right: 00px; gap: 10px;}
+
+  }
 /*top section*/
 .top-section{
     display: flex;
@@ -209,6 +224,12 @@ button{cursor: pointer;}
         margin-top: -60px;
     }
 }
+@media(max-width:360px){
+    .top-section{
+        width: 360px;
+        height: 680px;
+    }
+}
 
  /*Project section*/
 .project{
@@ -239,6 +260,9 @@ button{cursor: pointer;}
     .line{width: 400px;}
     .forty h1{font-size: 30px; line-height: 30px;}
     .forty p{font-size: 14px;}
+}
+@media (max-width:360px){
+    .line{width: 360px;}
 }
 
 /*About me section*/
@@ -284,6 +308,9 @@ button{cursor: pointer;}
     .sec h1{font-size: 32px; line-height: 38px; text-align: center;}
     .sec p{font-size: 18px; line-height: 32px; text-align: center;}
     .phone img{width: 356px; margin: 30px 10px;}
+}
+@media (max-width: 360px){
+    .phone img{width: 300px; margin: 30px 0px;}
 }
 
 /*Skills section*/

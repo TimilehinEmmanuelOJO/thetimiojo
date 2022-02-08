@@ -81,6 +81,9 @@
     display: flex;justify-content: space-between;
 }
 }
+@media (max-width: 360px){
+.what-flex{display: flex; margin: 0 30px;}
+}
 
 
 /*Contact Section*/
@@ -184,6 +187,28 @@ textarea{
         margin: 0 30px;
     }
 }
+@media(max-width: 360px){
+    .top-div{
+        display: flex; margin: 0 40px;
+    }
+    .message{position: relative; top: -100px; width: 300px;}
+    
+    label{
+        font-size: 18px;
+        margin: 0 0px;
+    }
+    input{
+        width: 300px;
+        margin: 0 0px;
+     }
+    textarea{
+        width: 300px;
+        margin: 0 0px;
+     }
+    .but-sec{width: 300px;
+        margin: 0 0px;
+    }
+}
 /*footer section*/
 footer{
     height: 150px;
@@ -225,4 +250,18 @@ footer{
         justify-content: left;
     }
     footer{width: 480px;}
+}
+@media(max-width: 360px){
+    .log{display: grid; gap: 0px; margin: 0 40px;}
+    .log h1{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    .foot{
+        display: flex;
+        gap: 10px;
+        font-size: 10px;
+        justify-content: left;
+    }
+    footer{width: 360px;}
 }
