@@ -176,7 +176,6 @@ textarea{
 footer{
     height: 150px;
     background-color: rgb(0, 0, 0);
-    opacity: ;
     color: rgb(255, 255, 255);
 }
 .log{
@@ -200,4 +199,18 @@ footer{
     gap: 100px;
     font-weight: 200px;
     font-size: 10px;
+}
+@media(max-width: 412px){
+    .log{display: grid; gap: 0px; margin: 0 40px;}
+    .log h1{
+        font-size: 20px;
+        padding: 10px 0px;
+    }
+    .foot{
+        display: flex;
+        gap: 10px;
+        font-size: 10px;
+        justify-content: left;
+    }
+    footer{width: 360px;}
 }
