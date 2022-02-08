@@ -45,9 +45,9 @@
     margin-top: 50px;
     color: rgb(255, 255, 255);
 }
-@media (max-width:412px){
-.what-flex{display: flex; margin: 0 20px;}
-.what-line{width: 42px; }
+@media (max-width:600px){
+.what-flex{display: flex; margin: 0 100px;}
+.what-line{width: 62px; }
 .what-flex h1{font-size: 18px;}
 .main-pic{display: grid;}
 .pic{
@@ -108,6 +108,7 @@
 #mess img{
     width:435px ;   
 }
+.message{ margin: 0 0;}
 form{
     display: grid;
     gap: 10px;
@@ -151,12 +152,16 @@ textarea{
     color: white;
     border-radius: 10px;
 }
-@media(max-width: 412px){
+@media(max-width: 600px){
+    .top-div{
+        display: flex; margin: 0 100px;
+    }
     .flex-con{
         display: grid;
     }
     .contact-section h1{font-size: 20px; text-align: left;}
-    .div-con{width: 50px;}
+    .div-con{width: 70px;}
+    .message{position: relative; top: -100px;}
     #mess p{
         display: none;
     }
@@ -165,14 +170,18 @@ textarea{
     }
     label{
         font-size: 18px;
+        margin: 0 30px;
     }
     input{
         width: 383px;
+        margin: 0 30px;
      }
     textarea{
         width: 383px;
+        margin: 0 30px;
      }
     .but-sec{width: 383px;
+        margin: 0 30px;
     }
 }
 /*footer section*/
@@ -203,7 +212,7 @@ footer{
     font-weight: 200px;
     font-size: 10px;
 }
-@media(max-width: 412px){
+@media(max-width: 600px){
     .log{display: grid; gap: 0px; margin: 0 40px;}
     .log h1{
         font-size: 20px;
@@ -215,5 +224,5 @@ footer{
         font-size: 10px;
         justify-content: left;
     }
-    footer{width: 360px;}
+    footer{width: 480px;}
 }

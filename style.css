@@ -13,8 +13,8 @@ body{
     max-width: 100%;
     color: rgb(0, 0, 0);
 }
-@media(max-width: 412px){
-    body{background-color: yellow; max-width: 68%;}
+@media(max-width: 600px){
+    body{background-color: rgb(255, 255, 255);}
 }
 ul{
     list-style-type: none;
@@ -82,6 +82,7 @@ button{cursor: pointer;}
     gap: 40px;
 }
 .align{display: none;}
+.dark-but{border-radius: 20px; border: none; background-color: rgb(253, 252, 252); width: 30px; font-size: 30px;}
 .dark-mode{
     background-color: #000000;
     color: #ffffff;
@@ -95,16 +96,16 @@ button{cursor: pointer;}
     background-color: #ffffff;
   }
   
-  @media(max-width: 412px){
+  @media(max-width: 600px){
     .logo{
-        margin: 0 5px;
+        margin: 0 45px;
     }
     .left-nav{display: none;}
     .nav{
         display: flex;
         justify-content: space-between;
     }
-    .align{display: flex; font-size: 24px;}
+    .align{display: flex; font-size: 24px; margin: 0 50px; gap: 10px;}
 }
 /*top section*/
 .top-section{
@@ -178,7 +179,7 @@ button{cursor: pointer;}
      transition: .7s ease-in-out;
      font-size: 24px;   
  }
-@media (max-width:412px){
+@media (max-width:600px){
     .top-section{
         display: grid;
         height: 650px;
@@ -204,8 +205,8 @@ button{cursor: pointer;}
         width: 140px;
     }
     .laptop{
-        width: 200px;
-        margin-top: 0px;
+        width: 300px;
+        margin-top: -60px;
     }
 }
 
@@ -230,7 +231,7 @@ button{cursor: pointer;}
     font-size: 18px;
     font-weight: 500;
 }
-@media (max-width:412px){
+@media (max-width:600px){
     .project{
         display: grid;
         margin: 0 auto;
@@ -274,15 +275,15 @@ button{cursor: pointer;}
     left: 30px;
     width: 485.5px;
 }
-@media (max-width: 412px){
-    .sec{display: grid;}
+@media (max-width: 600px){
+    .sec{display: grid; margin: 10px auto;}
     .bit{margin-bottom: 20px;}
     .bit2{
         height: 17px; width: 150px; margin: 0 auto
     }
     .sec h1{font-size: 32px; line-height: 38px; text-align: center;}
     .sec p{font-size: 18px; line-height: 32px; text-align: center;}
-    .phone img{width: 256px;}
+    .phone img{width: 356px; margin: 30px 10px;}
 }
 
 /*Skills section*/
@@ -296,7 +297,7 @@ button{cursor: pointer;}
 .skillset{font-size: 60px;}
 .iconc{display: grid;gap: 20px;}
 .ico{display: flex; justify-content: space-around; font-size: 150px; color: cadetblue;}
-@media (max-width: 412px){
+@media (max-width: 600px){
     .red1{margin: 40px auto;}
     .red2{width: 80px;}
     .skillset{font-size: 20px;}
