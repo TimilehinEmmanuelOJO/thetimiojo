@@ -101,6 +101,7 @@ button{cursor: pointer;}
   
   
   @media(max-width: 51.25em){
+      .nav{width: 100%;}
     .logo{
         margin: 0 45px;
     }
@@ -114,6 +115,7 @@ button{cursor: pointer;}
         .align i{font-size: 30px; border: none;}
 }
 @media (max-width: 15.9em){
+    .nav{max-width: 100%;}
     .logo{
         margin-left: 10px;
     }
@@ -200,6 +202,7 @@ button{cursor: pointer;}
     .top-section{
         display: grid;
         height: 700px;
+        width: 382px;
     }
     .name{
         text-align: center;
@@ -316,7 +319,7 @@ button{cursor: pointer;}
     .phone img{width: 356px; margin: 30px 10px;}
 }
 @media (max-width: 15.9em){
-    .phone img{width: 300px; margin: 30px 0px;}
+    .phone img{width: 300px; margin: 30px auto;}
 }
 
 /*Skills section*/
