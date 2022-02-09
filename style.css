@@ -13,10 +13,10 @@ body{
     max-width: 100%;
     color: rgb(0, 0, 0);
 }
-@media(max-width: 600px){
+@media(max-width: 51.25em){
     body{background-color: rgb(255, 255, 255);}
 }
-@media(max-width:254px){
+@media(max-width:15.9){
     body{background-color: #ffffff;}
 }
 ul{
@@ -100,7 +100,7 @@ button{cursor: pointer;}
   }
   
   
-  @media(max-width: 600px){
+  @media(max-width: 51.25em){
     .logo{
         margin: 0 45px;
     }
@@ -109,9 +109,11 @@ button{cursor: pointer;}
         display: flex;
         justify-content: space-between;
     }
-    .align{display: flex; font-size: 24px; margin: 0 50px; gap: 10px;}
+    .align{display: flex; 
+        margin: 0 50px; gap: 10px;}
+        .align i{font-size: 30px; border: none;}
 }
-@media (max-width: 254px){
+@media (max-width: 15.9em){
     .logo{
         margin-left: 10px;
     }
@@ -194,10 +196,10 @@ button{cursor: pointer;}
      transition: .7s ease-in-out;
      font-size: 24px;   
  }
-@media (max-width:600px){
+@media (max-width:51.25em){
     .top-section{
         display: grid;
-        height: 650px;
+        height: 700px;
     }
     .name{
         text-align: center;
@@ -224,7 +226,7 @@ button{cursor: pointer;}
         margin-top: -60px;
     }
 }
-@media(max-width:254px){
+@media(max-width:15.9em){
     .top-section{
         width: 360px;
         height: 680px;
@@ -235,7 +237,7 @@ button{cursor: pointer;}
 .project{
     display: flex;
     justify-content: space-between;
-    max-width: 1030px;
+    width: 100%;
     margin: 0% auto;
 }
 .line{
@@ -252,16 +254,17 @@ button{cursor: pointer;}
     font-size: 18px;
     font-weight: 500;
 }
-@media (max-width:600px){
+@media (max-width:51.25em){
     .project{
         display: grid;
-        margin: 0 auto;
+        text-align: center;
+        margin: 0px auto;
     }
     .line{width: 400px;}
     .forty h1{font-size: 30px; line-height: 30px;}
     .forty p{font-size: 14px;}
 }
-@media (max-width:254px){
+@media (max-width:15.9em){
     .line{width: 360px;}
 }
 
@@ -299,7 +302,7 @@ button{cursor: pointer;}
     left: 30px;
     width: 485.5px;
 }
-@media (max-width: 600px){
+@media (max-width: 51.25em){
     .sec{display: grid; margin: 10px auto;}
     .bit{margin-bottom: 20px;}
     .bit2{
@@ -309,7 +312,7 @@ button{cursor: pointer;}
     .sec p{font-size: 18px; line-height: 32px; text-align: center;}
     .phone img{width: 356px; margin: 30px 10px;}
 }
-@media (max-width: 254px){
+@media (max-width: 15.9em){
     .phone img{width: 300px; margin: 30px 0px;}
 }
 
@@ -324,7 +327,7 @@ button{cursor: pointer;}
 .skillset{font-size: 60px;}
 .iconc{display: grid;gap: 20px;}
 .ico{display: flex; justify-content: space-around; font-size: 150px; color: cadetblue;}
-@media (max-width: 600px){
+@media (max-width:51.25em){
     .red1{margin: 40px auto;}
     .red2{width: 80px;}
     .skillset{font-size: 20px;}

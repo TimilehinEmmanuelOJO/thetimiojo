@@ -1,6 +1,6 @@
 /*carousel section*/
-.what-flex{display: flex; margin: 0 200px;}
-.what-line{height: 2px; width: 200px; background-color: rgb(255, 0, 0);}
+.red3{display: flex; margin: 70px auto;}
+.red4{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
 .what-flex h1{font-size: 60px;}
 .card-group h1{
     text-align: center;
@@ -45,10 +45,9 @@
     margin-top: 50px;
     color: rgb(255, 255, 255);
 }
-@media (max-width:600px){
-.what-flex{display: flex; margin: 0 100px;}
-.what-line{width: 62px; }
-.what-flex h1{font-size: 18px;}
+@media (max-width:51.25em){
+    .red3{margin: 40px 110px;}
+    .red4{width: 80px;}
 .main-pic{display: grid;}
 .pic{
     display: grid;
@@ -81,7 +80,7 @@
     display: flex;justify-content: space-between;
 }
 }
-@media (max-width: 254px){
+@media (max-width: 15.9em){
 .what-flex{display: flex; margin: 0 30px;}
 }
 
@@ -91,9 +90,9 @@
 .contact-section{
    margin-top:100px ;
 }
-.top-div{
-    display: flex; margin: 0 270px;
-}
+.red5{display: flex; margin: 70px auto;}
+.red6{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
+
 .contact-section h1{font-size: 60px;}
 .flex-con{
     display: flex;
@@ -155,10 +154,9 @@ textarea{
     color: white;
     border-radius: 10px;
 }
-@media(max-width: 600px){
-    .top-div{
-        display: flex; margin: 0 100px;
-    }
+@media(max-width: 51.25em){
+    .red5{margin: 40px 140px;}
+    .red6{width: 80px;}
     .flex-con{
         display: grid;
     }
@@ -187,7 +185,9 @@ textarea{
         margin: 0 30px;
     }
 }
-@media(max-width: 254px){
+@media(max-width: 15.9em){
+    .red5{margin: 40px auto;}
+    .red6{width: 80px;}
     .top-div{
         display: flex; margin: 0 40px;
     }
@@ -237,8 +237,8 @@ footer{
     font-weight: 200px;
     font-size: 10px;
 }
-@media(max-width: 600px){
-    .log{display: grid; gap: 0px; margin: 0 40px;}
+@media(max-width: 51.25em){
+    .log{display: flex; gap: 0px; margin: 0 40px;}
     .log h1{
         font-size: 20px;
         padding: 10px 0px;
@@ -249,9 +249,9 @@ footer{
         font-size: 10px;
         justify-content: left;
     }
-    footer{width: 480px;}
+    footer{width: 100%;}
 }
-@media(max-width: 254px){
+@media(max-width: 15.9em){
     .log{display: grid; gap: 0px; margin: 0 40px;}
     .log h1{
         font-size: 20px;
@@ -263,5 +263,5 @@ footer{
         font-size: 10px;
         justify-content: left;
     }
-    footer{width: 360px;}
+    footer{width: 100%;}
 }
