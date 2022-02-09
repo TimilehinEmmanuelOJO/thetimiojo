@@ -101,9 +101,9 @@ button{cursor: pointer;}
   
   
   @media(max-width: 51.25em){
-      .nav{width: 100%;}
+      .nav{width: 400px;}
     .logo{
-        margin: 0 45px;
+        margin: 0 25px;
     }
     .left-nav{display: none;}
     .nav{
@@ -336,6 +336,13 @@ button{cursor: pointer;}
 @media (max-width:51.25em){
     .red1{margin: 40px auto;}
     .red2{width: 80px;}
+    .skillset{font-size: 20px;}
+    .ico{font-size:40px;}
+}
+@media (max-width: 18.9em){
+    .skills{position: relative; left: 30px;}
+    .red1{margin: 40px 40px;}
+    .red2{width: 40px;}
     .skillset{font-size: 20px;}
     .ico{font-size:40px;}
 }
