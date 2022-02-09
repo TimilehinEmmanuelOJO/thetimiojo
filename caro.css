@@ -1,7 +1,6 @@
 /*carousel section*/
 .red3{display: flex; margin: 70px auto;}
 .red4{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
-.what-flex h1{font-size: 60px;}
 .card-group h1{
     text-align: center;
     margin: 0 40px;
@@ -85,130 +84,7 @@
 }
 
 
-/*Contact Section*/
 
-.contact-section{
-   margin-top:100px ;
-}
-.red5{display: flex; margin: 70px auto;}
-.red6{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
-
-.contact-section h1{font-size: 60px;}
-.flex-con{
-    display: flex;
-    justify-content: center;
-    padding: 39px 100px;
-    gap: 100px;
-}
-.div-con{height: 2px; width: 200px; background-color: rgb(255, 0, 0);}
-#mess p{
-    color: rgb(0, 0, 0);
-    font-size: 26px;
-    font-weight: 400px;
-    margin-top: 100px;
-}
-#mess img{
-    width:435px ;   
-}
-.message{ margin: 0 0;}
-form{
-    display: grid;
-    gap: 10px;
-    width: 450px;
-}
-label{
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-}
-input{
-    width: 483px;
-    height: 53px;
-    border-radius: 5px;
-    outline: none;
-    font-size: 20px;
-    border: 3px solid rgb(31, 29, 29);
-    font-weight: 700;
-    padding: 10px;
-}
-textarea{
-    height: 150px;
-    border-radius: 5px;
-    outline: none;
-    font-size: 20px;
-    border: 3px solid rgb(31, 29, 29);
-    font-weight: 700;
-    padding: 10px;
-}
-.but-sec{
-    cursor: pointer;
-    height: 50px;
-    border-radius: 5px;
-    outline: none;
-    font-size: 20px;
-    border: 3px solid rgb(255, 255, 255);
-    font-weight: 700;
-    transition: 1s ease-in-out;
-}
-.but-sec:hover{
-    background-color: black;
-    color: white;
-    border-radius: 10px;
-}
-@media(max-width: 51.25em){
-    .red5{margin: 40px 140px;}
-    .red6{width: 80px;}
-    .flex-con{
-        display: grid;
-    }
-    .contact-section h1{font-size: 20px; text-align: left;}
-    .div-con{width: 70px;}
-    .message{position: relative; top: -100px;}
-    #mess p{
-        display: none;
-    }
-    #mess img{
-        display: none;
-    }
-    label{
-        font-size: 18px;
-        margin: 0 30px;
-    }
-    input{
-        width: 383px;
-        margin: 0 30px;
-     }
-    textarea{
-        width: 383px;
-        margin: 0 30px;
-     }
-    .but-sec{width: 383px;
-        margin: 0 30px;
-    }
-}
-@media(max-width: 15.9em){
-    .red5{margin: 40px auto;}
-    .red6{width: 80px;}
-    .top-div{
-        display: flex; margin: 0 40px;
-    }
-    .message{position: relative; top: -100px; width: 300px;}
-    
-    label{
-        font-size: 18px;
-        margin: 0 0px;
-    }
-    input{
-        width: 300px;
-        margin: 0 0px;
-     }
-    textarea{
-        width: 300px;
-        margin: 0 0px;
-     }
-    .but-sec{width: 300px;
-        margin: 0 0px;
-    }
-}
 /*footer section*/
 footer{
     height: 150px;

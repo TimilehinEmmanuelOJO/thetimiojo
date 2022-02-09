@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="caro.css">
+    <link rel="stylesheet" href="overlay.css">
     <link rel="icon" type="image/png" sizes="60x60" href="Images\logo (2).png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"
@@ -26,8 +27,21 @@
                 <a href="#contact-section" class="hover-underline-animation">Quotation</a>
                 <button onclick="myFunction()" class="dark-but"><i class="fas fa-moon"></i></button>
             </div>
-            <div class="align"><button onclick="" ><i class="fas fa-align-justify"></i></button>
+            
+            <div class="align">
+                <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="fas fa-align-justify"></i></button>
                 <button onclick="myFunction()" class="dark-but"><i class="fas fa-moon"></i></button></div>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <h5 id="offcanvasTopLabel" style="margin: 0 auto;"><a href="" class="hover-underline-animation" style="margin: 30px;">Home</a>
+                    <a href="projects.html" class="hover-underline-animation" style="margin: 30px;">Projects</a>
+                    <a href="#about-section" class="hover-underline-animation"style="margin: 30px;">About</a>
+                    <a href="#contact-section" class="hover-underline-animation"style="margin: 30px;">Quotation</a></h5>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            </div>
+            
+            
         </div>
         <div class="top-section">
                 <div class="text">
@@ -45,7 +59,27 @@
         <div class="project-section">
             <div class="line"></div>
             <div class="project">
-                <div style="display: flex;">
+                    <div class="forty">
+                        <h1>10+</h1>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="forty">
+                        <h1>20+</h1>
+                        <p>Github Repositories</p>
+                    </div>
+                
+                    <div class="forty">
+                        <h1>1+</h1>
+                        <p>Years of Experience</p>
+                    </div>
+                    <div class="forty">
+                        <h1>200+</h1>
+                        <p>200 Github Contributions</p>
+                    </div>
+                    
+            </div>
+            <div class="project2">
+                <div class="cont">
                     <div class="forty">
                         <h1>10+</h1>
                         <p>Projects Completed</p>
@@ -55,7 +89,7 @@
                         <p>Github Repositories</p>
                     </div>
                 </div>
-               <div style="display: flex;">
+               <div class="cont">
                 <div class="forty">
                     <h1>1+</h1>
                     <p>Years of Experience</p>
@@ -195,29 +229,7 @@
                 </div>
               </div>
         </div>
-        <div class="contact-section" id="contact-section">
-            <div class="red5"><div class="red6"></div><div><h1 class="skillset"> Talk to Me</h1></div><div class="red6"></div></div>
-            <div class="flex-con">
-                <div class="cont">
-                    <div id="mess">
-                        <p>Want a website for your brand and business? <br>
-                             I develop your desire....</p>
-                        <img src="Images\hshs 1.png" alt="">
-                    </div>
-                </div>
-                <div class="message">
-                    <form action="">
-                        <label for="">Name</label>
-                        <input type="text" name="" id="" required>
-                        <label for="">Email</label>
-                        <input type="text" name="" id="" required>
-                        <label for="">Message</label>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
-                        <Button class="but-sec">Submit</Button>
-                    </form>
-                </div>
-            </div>
-        </div>
+        
         <footer>
             <div class="log"> 
                 <div class="sm">
@@ -238,9 +250,6 @@
             </div>
         </footer>
     
-    <script>
-        AOS.init();
-      </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <script src="index.js"></script>
     
