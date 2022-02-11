@@ -13,15 +13,12 @@ body{
     max-width: 100%;
     color: rgb(0, 0, 0);
 }
-@media(max-width: 51.25em){
-    body{background-color: rgb(255, 255, 255);}
-}
-@media(max-width:15.9){
-    body{background-color: #ffffff;}
-}
 ul{
     list-style-type: none;
+    margin: 0px 0px;
+    padding: 0 0;
 }
+li{margin: 0 0;}
 a{
     text-decoration: none;
     cursor: pointer;
@@ -100,32 +97,7 @@ button{cursor: pointer;}
   }
   
   
-  @media(max-width: 51.25em){
-      .nav{width: 400px;}
-    .logo{
-        margin: 0 25px;
-    }
-    .left-nav{display: none;}
-    .nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    .align{display: flex; 
-        margin: 0 50px; gap: 10px;}
-        .align i{font-size: 30px; border: none;}
-}
-@media (max-width: 15.9em){
-    .nav{max-width: 100%;}
-    .logo{
-        margin-left: 10px;
-    }
-    .nav{
-        display: flex;
-        justify-content: space-between;
-    }
-    .align{display: flex; font-size: 24px; margin-right: 00px; gap: 10px;}
-
-  }
+ 
 /*top section*/
 .top-section{
     display: flex;
@@ -198,44 +170,6 @@ button{cursor: pointer;}
      transition: .7s ease-in-out;
      font-size: 24px;   
  }
-@media (max-width:51.25em){
-    .top-section{
-        display: grid;
-        height: 700px;
-        width: 382px;
-    }
-    .name{
-        text-align: center;
-        font-size: 39px;
-        margin-bottom: 15px;
-    }
-    .web{
-        text-align: center;
-        font-size: 16px;
-    }
-    .buts{
-        display: grid;
-        margin: 0 auto;
-    }
-    #but1{
-        width: 140px;
-        margin: 20px 0;
-    }
-    #but2{
-        width: 140px;
-    }
-    .laptop{
-        width: 300px;
-        margin-top: -60px;
-    }
-}
-@media(max-width:15.9em){
-    .top-section{
-        width: 360px;
-        height: 680px;
-    }
-}
-
  /*Project section*/
 .project{
     display: flex;
@@ -256,22 +190,6 @@ button{cursor: pointer;}
     color: #b1a9a9;
     font-size: 18px;
     font-weight: 500;
-}
-@media (max-width:51.25em){
-    .project{display: none;}
-    .project2{
-        display: grid;
-        text-align: center;
-        margin: 0px auto;
-        justify-content: center; gap: 10px;
-    }
-    .cont{display: flex; justify-content: space-around;}
-    .line{width: 400px;}
-    .forty h1{font-size: 30px; line-height: 30px;}
-    .forty p{font-size: 14px;}
-}
-@media (max-width:15.9em){
-    .line{width: 360px;}
 }
 
 /*About me section*/
@@ -308,19 +226,6 @@ button{cursor: pointer;}
     left: 30px;
     width: 485.5px;
 }
-@media (max-width: 51.25em){
-    .sec{display: grid; margin: 10px auto;}
-    .bit{margin-bottom: 20px;}
-    .bit2{
-        height: 17px; width: 150px; margin: 0 auto
-    }
-    .sec h1{font-size: 32px; line-height: 38px; text-align: center;}
-    .sec p{font-size: 18px; line-height: 32px; text-align: center;}
-    .phone img{width: 356px; margin: 30px 10px;}
-}
-@media (max-width: 15.9em){
-    .phone img{width: 300px; margin: 30px auto;}
-}
 
 /*Skills section*/
 .skills{
@@ -333,16 +238,3 @@ button{cursor: pointer;}
 .skillset{font-size: 60px;}
 .iconc{display: grid;gap: 20px;}
 .ico{display: flex; justify-content: space-around; font-size: 150px; color: cadetblue;}
-@media (max-width:51.25em){
-    .red1{margin: 40px auto;}
-    .red2{width: 80px;}
-    .skillset{font-size: 20px;}
-    .ico{font-size:40px;}
-}
-@media (max-width: 18.9em){
-    .skills{position: relative; left: 30px;}
-    .red1{margin: 40px 40px;}
-    .red2{width: 40px;}
-    .skillset{font-size: 20px;}
-    .ico{font-size:40px;}
-}
