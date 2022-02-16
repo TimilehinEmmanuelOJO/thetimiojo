@@ -27,6 +27,14 @@ body{
       background-color: aqua;
     }
   }
+  /*787.36px / 16px = 49.21em*/
+  @media(max-width:49.21em){
+      html{background-color: red;}
+  }
+/*563.36px / 16px = 35.21em*/
+  @media(max-width:35.21em){
+    html{background-color: rgb(34, 241, 86);}
+}
   
   /* 448px / 16px = 28.75em */
   @media (max-width: 28em) {
@@ -193,6 +201,42 @@ button{cursor: pointer;}
      transition: .7s ease-in-out;
      font-size: 24px;   
  }
+ @media(max-width:49.21em){
+    .top-section{
+        max-width: 47.1em;
+    }
+    .laptop{
+        width: 300px;
+        height: auto;
+    }
+    .text{display: grid; margin-top: 88px;}
+    .name{
+        font-size: 39px;
+    }
+    .web{
+        font-size: 22px;
+    }
+    #but1{
+        height: 40px;
+        width: 165px;
+        font-size: 16px;
+    }
+    #but1:hover{
+       height: 50px;
+        font-size: 18px;
+        
+    }
+    #but2{
+        height: 40px;
+        width: 165px;
+        font-size: 16px;
+    }
+    #but2:hover{
+         height: 50px;
+         font-size: 18px;   
+     }
+}
+ 
  /*Project section*/
 .project{
     display: flex;
@@ -220,6 +264,12 @@ button{cursor: pointer;}
    .forty h1{font-size: 30px;}
    .forty p{font-size: 14px;}
   }
+  @media(max-width:49.21em){
+    .project{width: 700px;}
+   .line{width: 47.1em;}
+   .forty h1{font-size: 25px;}
+   .forty p{font-size: 10px;}
+}
 
 /*About me section*/
 .about-section{
@@ -269,6 +319,22 @@ button{cursor: pointer;}
         width: 355.5px;
     }
   }
+  @media(max-width:49.21em){
+    .bit2{
+        height: 20px;        
+    }
+    .sec h1{
+        font-size: 25px;
+        }
+    .sec p{
+        font-size: 14px;
+    }
+    .phone img{
+        margin-top: 50px;
+        width: 305.5px;
+    }
+}
+  
 /*Skills section*/
 .skills{
     display: grid;
@@ -285,3 +351,8 @@ button{cursor: pointer;}
 .skillset{font-size: 40px;}
 .ico{ font-size: 100px;}
   }
+@media(max-width:49.21em){
+.red2{width: 150px;}
+.skillset{font-size: 30px;}
+.ico{ font-size: 80px;}
+}

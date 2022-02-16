@@ -52,9 +52,13 @@
         margin-left: 20px;
     }   
   }
-/*PRoject section*/
+  @media(max-width:49.21em){
+    .skillset2{font-size: 30px;}
+    }
+/*Project section*/
 .project-line{display: flex;justify-content: center; margin: 40px;}
 .project-line2{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
+.proj-combine2{display: none;}
 .exp{
     width: 1000px;
     height: 500px;
@@ -80,8 +84,16 @@
 .proj-combine{display: flex;}
 .proj-combine img{ width: 600px; height: 330px;position: relative; z-index: 2; left: -100px; margin: auto 0; border-radius: 10px;}
 @media (max-width: 61.25em) {
+    .project-line2{ width: 150px;}    
+    .proj-combine{display: none;}
+    .proj-combine2{display: grid;}
+    .exp{width: 50.1em; margin: 10px auto;}
+    .proj-combine2 img{width: 40.2em; margin: 0 auto; border-radius: 10px;}
+}
+@media(max-width:49.21em){
+    .exp{width: 43.1em; margin: 10px auto;}
+    .proj-combine2 img{width: 36.2em; margin: 0 auto; border-radius: 10px;}
     }
-
 
 /*footer section*/
 .footer{
