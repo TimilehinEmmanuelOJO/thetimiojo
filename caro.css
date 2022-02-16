@@ -5,37 +5,33 @@
 .card-group{
     display: flex; justify-content: space-around;
 }
-
-.card-group h1{
-    text-align: center;
-    margin: 0 40px;
-    color: white;
-    font-size: 60px;
-    font-weight: 700px;
-}
-
-
 .pic{
     display: grid;
     margin: 30px 0;
 }
 .pic img{
-    width: 200px;
-    border-radius: 300px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
     position: relative;
+    z-index: 2;
+    top: 40px;
+    left: 115px;
+    box-shadow: -4px 5px 4px 0px #00000040;
 }
 .back{
     background-color: rgb(70, 66, 66);
     height: 250px;
     border-radius: 10px;
-    z-index: 2;
-    margin-top: -90px;
-    margin-left: 80px;
-    opacity: 0.9;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 0px;
+    opacity: 0.95;
 }
 .pic p{
     padding-left: 25px;
-    padding-top: 15px;
+    padding-right: 20px;
+    padding-top: 25px;
     font-size: 16px;
     font-weight: 400;
     color: rgb(255, 255, 255);
@@ -45,7 +41,17 @@
     margin-top: 50px;
     color: rgb(255, 255, 255);
 }
-
+@media (max-width: 61.25em) {
+    .redline2{width: 150px; }
+    .skillset2{font-size: 40px;}
+    .pic p{
+        padding-left: 20px;
+        font-size: 14px;
+        }
+    .pic .icon{
+        margin-left: 20px;
+    }   
+  }
 /*PRoject section*/
 .project-line{display: flex;justify-content: center; margin: 40px;}
 .project-line2{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
@@ -73,7 +79,8 @@
 .exp i{margin-top: 20px; font-size: 40px; padding-left: 20px;}
 .proj-combine{display: flex;}
 .proj-combine img{ width: 600px; height: 330px;position: relative; z-index: 2; left: -100px; margin: auto 0; border-radius: 10px;}
-
+@media (max-width: 61.25em) {
+    }
 
 
 /*footer section*/

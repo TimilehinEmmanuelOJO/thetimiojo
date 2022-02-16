@@ -16,7 +16,7 @@ body{
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
     html {
-      font-size: 60%;
+      
       background-color: #5E3AEE;
     }
   }
@@ -24,7 +24,6 @@ body{
   /* 980px / 16px = 61.25em */
   @media (max-width: 61.25em) {
     html {
-      font-size: 58%;
       background-color: aqua;
     }
   }
@@ -215,6 +214,12 @@ button{cursor: pointer;}
     font-size: 18px;
     font-weight: 500;
 }
+@media (max-width: 61.25em) {
+    .project{width: 900px;}
+   .line{width: 55.1em;}
+   .forty h1{font-size: 30px;}
+   .forty p{font-size: 14px;}
+  }
 
 /*About me section*/
 .about-section{
@@ -250,7 +255,20 @@ button{cursor: pointer;}
     left: 30px;
     width: 485.5px;
 }
-
+@media (max-width: 61.25em) {
+    .bit2{
+        height: 20px;        
+    }
+    .sec h1{
+        font-size: 30px;
+        }
+    .sec p{
+        font-size: 18px;
+    }
+    .phone img{
+        width: 355.5px;
+    }
+  }
 /*Skills section*/
 .skills{
     display: grid;
@@ -262,3 +280,8 @@ button{cursor: pointer;}
 .skillset{font-size: 60px;}
 .iconc{display: grid;gap: 20px;}
 .ico{display: flex; justify-content: space-around; font-size: 150px; color: cadetblue;}
+@media (max-width: 61.25em) {
+.red2{width: 150px;}
+.skillset{font-size: 40px;}
+.ico{ font-size: 100px;}
+  }
