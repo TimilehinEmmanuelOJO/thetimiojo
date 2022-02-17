@@ -55,6 +55,11 @@
   @media(max-width:49.21em){
     .skillset2{font-size: 30px;}
     }
+    @media(max-width:35.21em){
+    .redline2{width: 100px; }
+    .skillset2{font-size: 30px;}
+    .pic5{display: none;}
+    }
 /*Project section*/
 .project-line{display: flex;justify-content: center; margin: 40px;}
 .project-line2{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
@@ -92,7 +97,11 @@
 }
 @media(max-width:49.21em){
     .exp{width: 43.1em; margin: 10px auto;}
-    .proj-combine2 img{width: 36.2em; margin: 0 auto; border-radius: 10px;}
+    .proj-combine2 img{width: 36.2em;}
+    }
+    @media(max-width:35.21em){
+        .exp{width: 30.1em; margin: 10px auto;}
+        .proj-combine2 img{width: 26.2em;}   
     }
 
 /*footer section*/
