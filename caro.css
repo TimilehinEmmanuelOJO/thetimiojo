@@ -60,6 +60,10 @@
     .skillset2{font-size: 30px;}
     .pic5{display: none;}
     }
+    @media(max-width:28em){
+        .redline2{width: 80px; }
+    .skillset2{font-size: 24px;}
+    }
 /*Project section*/
 .project-line{display: flex;justify-content: center; margin: 40px;}
 .project-line2{height: 2px; width: 300px; background-color: rgb(255, 0, 0);}
@@ -103,6 +107,13 @@
         .exp{width: 30.1em; margin: 10px auto;}
         .proj-combine2 img{width: 26.2em;}   
     }
+    @media(max-width:28em){
+        .project-line2{ width: 200px;}
+        .exp{width: 30.1em; margin: 10px auto;
+            padding: 20px;
+            }
+        .exp h2{font-size: 20px;}
+        }
 
 /*footer section*/
 .footer{
@@ -137,4 +148,18 @@
     font-size: 20px;
     margin-top: 30px;
     margin-left: 40px;
+}
+@media(max-width:28em){
+    
+    #foot{
+        display: flex;
+        justify-content: space-around;
+        font-weight: 400;
+        font-size: 10px;
+    }
+    #foot h1{
+        font-size: 14px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }   
 }
