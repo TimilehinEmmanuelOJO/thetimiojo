@@ -110,7 +110,7 @@ button{cursor: pointer;}
     gap: 40px;
 }
 .align{display: none;}
-.dark-but{border-radius: 20px; border: none; background-color: rgb(253, 252, 252); width: 30px; font-size: 30px;}
+.dark-but{color: #000000;border: none; background-color: #ffffff; font-size: 30px;}
 .dark-mode{
     background-color: #000000;
     color: #ffffff;
@@ -122,6 +122,7 @@ button{cursor: pointer;}
 .dark-mode label{ color: white;}
 .dark-mode .hover-underline-animation:after {background-color: #ffffff;}
 .dark-mode .list-class{color: white;}
+.dark-mode .dark-but{color: white; background-color: black;}
 .list-class{font-size: 30px; display: none; color: #000000;}
 @media(max-width:35.21em){
     .list-class{display: flex; margin-top: 5px;}
