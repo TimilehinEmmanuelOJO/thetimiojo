@@ -109,9 +109,10 @@
     }
     @media(max-width:28em){
         .project-line2{ width: 200px;}
-        .exp{width: 30.1em; margin: 10px auto;
+        .exp{width: 20.1em; margin: 10px auto;
             padding: 20px;
             }
+            .proj-combine2 img{width: 17.2em;}
         .exp h2{font-size: 20px;}
         }
 
