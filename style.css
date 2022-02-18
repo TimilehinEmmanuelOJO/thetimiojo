@@ -122,7 +122,8 @@ button{cursor: pointer;}
 .dark-mode #mess p{ color: white;}
 .dark-mode label{ color: white;}
 .dark-mode .hover-underline-animation:after {background-color: #ffffff;}
-.list-class{font-size: 30px; display: none;}
+.dark-mode .list-class{color: white;}
+.list-class{font-size: 30px; display: none; color: #000000;}
 @media(max-width:35.21em){
     .list-class{display: flex; margin-top: 5px;}
     .hover-underline-animation{display: none;}
