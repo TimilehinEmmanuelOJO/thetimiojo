@@ -16,23 +16,22 @@ body{
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
     html {
-      background-color: #5E3AEE;
+      
     }
   }
   
   /* 980px / 16px = 61.25em */
   @media (max-width: 61.25em) {
     html {
-      background-color: aqua;
     }
   }
   /*787.36px / 16px = 49.21em*/
   @media(max-width:49.21em){
-      html{background-color: red;}
+      html{}
   }
 /*563.36px / 16px = 35.21em*/
   @media(max-width:35.21em){
-    html{background-color: rgb(34, 241, 86);}
+    html{}
 }
   
   /* 448px / 16px = 28.75em */
@@ -123,6 +122,14 @@ button{cursor: pointer;}
 .dark-mode #mess p{ color: white;}
 .dark-mode label{ color: white;}
 .dark-mode .hover-underline-animation:after {background-color: #ffffff;}
+.list-class{font-size: 30px; display: none;}
+@media(max-width:35.21em){
+    .list-class{display: flex; margin-top: 5px;}
+    .hover-underline-animation{display: none;}
+}
+@media (max-width: 28em){
+    .list-class{display: flex;}
+  }
   
  
 /*top section*/
