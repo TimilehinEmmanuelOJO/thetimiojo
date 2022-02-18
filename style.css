@@ -37,8 +37,7 @@ body{
   /* 448px / 16px = 28.75em */
   @media (max-width: 28em) {
     html {
-      font-size: 55%;
-      background-color: yellow;
+      
     }
   }
   
