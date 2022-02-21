@@ -265,13 +265,14 @@ button{cursor: pointer;}
         height: auto;
         
     }
-    .text{display: grid; margin-top: 108px;margin-top: 108px;}
+    .text{display: grid; margin-top: 108px;margin-top: 108px; text-align: center;}
     .name{
         font-size: 32px;
     }
     .web{
         font-size: 20px;
         }
+        .buts{display: grid;}
     #but1{
         height: 40px;
         width: 155px;
