@@ -71,12 +71,18 @@ button{cursor: pointer;}
 
 /*Nav section*/
 .nav{
+    background-color: white;
+    height: 80px;
     display: flex;
     justify-content: space-around;
     margin-top: 39px;
     margin-bottom: 34px;
+    top: 0px;
+    position: sticky;
+    z-index: 10;
 }
 .logo{
+    margin-top: 30px;
     width: 150px;
     font-size: 27px;
     font-weight: 700;
@@ -106,6 +112,7 @@ button{cursor: pointer;}
   transform-origin: bottom left;
 }
 .left-nav{
+    margin-top: 30px;
     display: flex;
     gap: 40px;
 }
@@ -115,6 +122,7 @@ button{cursor: pointer;}
     background-color: #000000;
     color: #ffffff;
 }
+.dark-mode nav{background-color: black;}
 .dark-mode a{color: white;}
 .dark-mode .sec h1{ color: white;}
 .dark-mode .sec p{ color: white;}
@@ -123,10 +131,13 @@ button{cursor: pointer;}
 .dark-mode .hover-underline-animation:after {background-color: #ffffff;}
 .dark-mode .list-class{color: white;}
 .dark-mode .dark-but{color: white; background-color: black;}
+.dark-mode .nav{background-color: black; color: #ffff;}
+.dark-mode .left-nav ul li a{color: black;}
 .list-class{font-size: 30px; display: none; color: #000000;}
 @media(max-width:35.21em){
     .list-class{display: flex; margin-top: 5px;}
     .hover-underline-animation{display: none;}
+    .dark-mode .left-nav ul li a{color: black;}
 }
 @media (max-width: 28em){
     .list-class{display: flex;}
